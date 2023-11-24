@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "80190349446",
+    "project_id": "moodleapi-b9343",
+    "storage_bucket": "moodleapi-b9343.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80190349446:android:ef428d91cc4da7e760b107",
+        "android_client_info": {
+          "package_name": "vn.edu.usth.moodle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRyRYkJ9unNbLfOeoyiISlWO1BAbTr0MM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
