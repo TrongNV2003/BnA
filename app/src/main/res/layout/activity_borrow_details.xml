@@ -23,8 +23,8 @@
         app:iconPadding="15dp" />
 
     <ListView
+        android:id="@+id/list_borrow_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:listitem="@layout/list_book_details"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

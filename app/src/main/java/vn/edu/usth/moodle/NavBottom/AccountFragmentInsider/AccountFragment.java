@@ -1,4 +1,4 @@
-package vn.edu.usth.moodle.NavBottom;
+package vn.edu.usth.moodle.NavBottom.AccountFragmentInsider;
 
 import android.content.Intent;
 import android.os.Bundle;

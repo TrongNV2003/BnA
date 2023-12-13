@@ -21,8 +21,8 @@ import com.google.firebase.auth.FirebaseUser;
 
 import vn.edu.usth.moodle.NavBottom.ListBookFragment;
 import vn.edu.usth.moodle.NavBottom.SearchFragment;
-import vn.edu.usth.moodle.NavBottom.AccountFragment;
-import vn.edu.usth.moodle.NavBottom.NotificationFragment;
+import vn.edu.usth.moodle.NavBottom.AccountFragmentInsider.AccountFragment;
+import vn.edu.usth.moodle.NavBottom.NotificationFragmentInsider.NotificationFragment;
 import vn.edu.usth.moodle.SignInUp.LoginActivity;
 import vn.edu.usth.moodle.mainHome.FragmentHomeActivity;
 
