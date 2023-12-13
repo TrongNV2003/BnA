@@ -1,12 +1,11 @@
 package vn.edu.usth.moodle.SignInUp;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -22,7 +21,9 @@ import vn.edu.usth.moodle.R;
 public class LoginActivity extends AppCompatActivity {
 
     EditText username, password;
-    Button login, signup, google;
+    Button login;
+
+    TextView signup;
     FirebaseAuth mAuth;
 
 
@@ -31,10 +32,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        username = findViewById(R.id.username1);
-        password = findViewById(R.id.password1);
-        signup = findViewById(R.id.signup1);
-        login = findViewById(R.id.signin1);
+        username = findViewById(R.id.email);
+        password = findViewById(R.id.password);
+        signup = findViewById(R.id.register);
+        login = findViewById(R.id.login);
 
         mAuth = FirebaseAuth.getInstance();
 

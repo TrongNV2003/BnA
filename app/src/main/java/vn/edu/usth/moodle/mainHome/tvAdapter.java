@@ -1,0 +1,47 @@
+package vn.edu.usth.moodle.mainHome;
+
+import android.app.Activity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+
+import vn.edu.usth.moodle.R;
+
+public class tvAdapter extends BaseAdapter {
+
+    private Activity activity;
+    private String[] items;
+
+    public tvAdapter(Activity activity, String[] items){
+        this.activity = activity;
+        this.items = items;
+    }
+
+    @Override
+    public int getCount() {
+        return items.length;
+    }
+
+    @Override
+    public Object getItem(int i) {
+        return items[i];
+    }
+
+    @Override
+    public long getItemId(int i) {
+        return i;
+    }
+
+    @Override
+    public View getView(int i, View view, ViewGroup viewGroup) {
+
+        LayoutInflater inflater = activity.getLayoutInflater();
+        view = inflater.inflate(R.layout.tv_item_home,null);
+        TextView tvItem = (TextView)view.findViewById(R.id.item_title);
+        tvItem.setText(items[i]);
+
+        return view;
+    }
+}

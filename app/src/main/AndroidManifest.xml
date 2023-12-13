@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Moodle"
         tools:targetApi="31">
         <activity
+            android:name=".NavBottom.AccountFragmentInsider.ReportBook"
+            android:exported="false" />
+        <activity
+            android:name=".NavBottom.AccountFragmentInsider.ReportBook"
+            android:exported="false" />
+        <activity
             android:name=".mainHome.ActivityHome"
             android:exported="false" />
         <activity
@@ -39,12 +45,8 @@
             android:name=".mainHome.FragmentHomeActivity"
             android:exported="true" />
         <activity
-            android:name=".mainHome.FragmentDiscoveryBook"
+            android:name=".NavBottom.AccountFragmentInsider.ReportBook"
             android:exported="false" />
-        <activity
-            android:name=".mainHome.FragmentLatest"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"

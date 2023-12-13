@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
@@ -19,16 +21,18 @@ import vn.edu.usth.moodle.SignInUp.LoginActivity;
 
 public class FragmentHomeActivity extends Fragment {
 
+    private ListView listView;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home_discovery, container, false);
 
-        CardView book1 = view.findViewById(R.id.book1);
-        book1.setOnClickListener(view1 -> {
-            Intent intent = new Intent(getActivity(), ActivityHome.class);
-            startActivity(intent);
-        });
+        String[] items = {"Suggestion", "New Specialized Book", "Textbook","Sci-fi Book", "DICTIONARY"};
+        listView = (ListView)view.findViewById(R.id.list_view);
+        tvAdapter adapter = new tvAdapter(getActivity(),items);
+        listView.setAdapter(adapter);
+
         return view;
     }
 }

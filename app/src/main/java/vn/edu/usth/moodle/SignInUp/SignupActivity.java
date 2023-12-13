@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -27,7 +28,9 @@ import vn.edu.usth.moodle.R;
 public class SignupActivity extends AppCompatActivity {
 
     EditText username, password, re_password, email;
-    Button signup, login;
+
+    TextView login;
+    Button signup;
 
     FirebaseAuth mAuth;
 
@@ -40,8 +43,8 @@ public class SignupActivity extends AppCompatActivity {
         password = findViewById(R.id.password);
         email = findViewById(R.id.email);
         re_password = findViewById(R.id.repassword);
-        signup = findViewById(R.id.signup);
-        login = findViewById(R.id.signin);
+        signup = findViewById(R.id.register);
+        login = findViewById(R.id.login);
 
 
         mAuth = FirebaseAuth.getInstance();

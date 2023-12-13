@@ -12,7 +12,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -22,7 +21,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 import vn.edu.usth.moodle.NavBottom.ListBookFragment;
 import vn.edu.usth.moodle.NavBottom.SearchFragment;
-import vn.edu.usth.moodle.NavBottom.PersonalFragment;
+import vn.edu.usth.moodle.NavBottom.AccountFragment;
 import vn.edu.usth.moodle.NavBottom.NotificationFragment;
 import vn.edu.usth.moodle.SignInUp.LoginActivity;
 import vn.edu.usth.moodle.mainHome.FragmentHomeActivity;
@@ -74,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 } else if (itemId == R.id.blog) {
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListBookFragment()).commit();
                 } else if (itemId == R.id.more) {
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new PersonalFragment()).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AccountFragment()).commit();
                 }
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return true;
