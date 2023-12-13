@@ -8,7 +8,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
+import vn.edu.usth.moodle.NavBottom.AccountFragmentInsider.BorrowDetails;
 import vn.edu.usth.moodle.NavBottom.AccountFragmentInsider.ReportBook;
 import vn.edu.usth.moodle.R;
 
@@ -28,6 +30,17 @@ public class AccountFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+
+        Button borrow = view.findViewById(R.id.borrow_detail);
+        borrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), BorrowDetails.class);
+                startActivity(intent);
+            }
+        });
+
         return view;
     }
 }

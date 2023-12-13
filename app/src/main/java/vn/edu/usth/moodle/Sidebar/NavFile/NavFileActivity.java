@@ -17,6 +17,6 @@ public class NavFileActivity extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_nav_file, container, false);
+        return inflater.inflate(R.layout.z_fragment_nav_file, container, false);
     }
 }

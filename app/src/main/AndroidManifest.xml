@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Moodle"
         tools:targetApi="31">
         <activity
+            android:name=".NavBottom.AccountFragmentInsider.BorrowDetails"
+            android:exported="false" />
+        <activity
             android:name=".NavBottom.AccountFragmentInsider.ReportBook"
             android:exported="false" />
         <activity

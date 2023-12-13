@@ -73,7 +73,7 @@
             android:backgroundTint="@color/my_third"
             android:drawableLeft="@drawable/question_mark"
             android:drawableRight="@drawable/right_sign"
-            android:text="Borrowing Details"
+            android:text="Details Borrowed Book"
             android:textColor="#555252"
             android:textSize="18sp"
             android:textStyle="normal"

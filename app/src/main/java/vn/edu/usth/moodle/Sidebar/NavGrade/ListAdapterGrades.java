@@ -27,7 +27,7 @@ public class ListAdapterGrades extends ArrayAdapter<UserGrades>{
         UserGrades user = getItem(position);
 
         if(convertView == null){
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_grades,parent,false);
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.z_list_grades,parent,false);
         }
 
         TextView subject = convertView.findViewById(R.id.subject);

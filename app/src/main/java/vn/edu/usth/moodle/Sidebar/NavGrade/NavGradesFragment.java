@@ -20,7 +20,7 @@ public class NavGradesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_nav_grade, container, false);
+        View view = inflater.inflate(R.layout.z_fragment_nav_grade, container, false);
 
         ListView listView = view.findViewById(R.id.list_view);
 
