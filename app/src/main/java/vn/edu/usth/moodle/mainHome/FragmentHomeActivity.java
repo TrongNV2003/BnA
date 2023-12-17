@@ -16,7 +16,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import com.google.android.material.tabs.TabLayout;
 
 import vn.edu.usth.moodle.R;
-import vn.edu.usth.moodle.Sidebar.NavFile.NavFileActivity;
+
 import vn.edu.usth.moodle.SignInUp.LoginActivity;
 
 public class FragmentHomeActivity extends Fragment {

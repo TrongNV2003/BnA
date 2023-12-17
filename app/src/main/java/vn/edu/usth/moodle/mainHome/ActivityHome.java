@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import vn.edu.usth.moodle.R;
-import vn.edu.usth.moodle.Sidebar.NavFile.NavFileActivity;
+
 import vn.edu.usth.moodle.SignInUp.LoginActivity;
 import vn.edu.usth.moodle.SignInUp.SignupActivity;
 
