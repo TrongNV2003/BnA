@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NavBottom.AccountFragmentInsider.BorrowDetails"
+    tools:context=".NavBottom.AccountFragmentInsider.BorrowStatus"
     android:orientation="vertical">
 
     <Button
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:drawableLeft="@drawable/back"
-        android:text="Details Borrowed Book"
+        android:text="Status Borrowed Book"
         android:textSize="15sp"
         android:textColor="@color/black"
         android:paddingEnd="10dp"

@@ -8,15 +8,14 @@ import android.widget.Button;
 import android.widget.ListView;
 
 import vn.edu.usth.moodle.R;
-import vn.edu.usth.moodle.mainHome.tvAdapter;
 
-public class BorrowDetails extends AppCompatActivity {
+public class BorrowStatus extends AppCompatActivity {
 
     private ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_borrow_details);
+        setContentView(R.layout.activity_borrow_status);
 
         Button back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
@@ -28,7 +27,7 @@ public class BorrowDetails extends AppCompatActivity {
 
         String[] items = {"Borrowing", "Returned", "Returned","Borrowing"};
         listView = findViewById(R.id.list_borrow_view);
-        borrowAdapter adapter = new borrowAdapter(BorrowDetails.this,items);
+        borrowAdapter adapter = new borrowAdapter(BorrowStatus.this,items);
         listView.setAdapter(adapter);
 
     }

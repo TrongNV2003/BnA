@@ -16,13 +16,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:drawableLeft="@drawable/back"
-        android:text="Register to borrow, return and renew book borrowings"
-        android:textSize="15sp"
-        android:textColor="@color/black"
-        android:paddingEnd="10dp"
         android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Register to borrow, return and renew book borrowings"
         android:textAlignment="textStart"
-        app:iconPadding="15dp"/>
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:iconPadding="15dp" />
 
     <ScrollView
         android:layout_width="match_parent"

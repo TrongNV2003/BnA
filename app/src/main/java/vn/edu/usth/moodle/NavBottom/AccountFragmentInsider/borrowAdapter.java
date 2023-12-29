@@ -39,7 +39,7 @@ public class borrowAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
 
         LayoutInflater inflater = activity.getLayoutInflater();
-        view = inflater.inflate(R.layout.list_book_details,null);
+        view = inflater.inflate(R.layout.list_book_status,null);
         TextView borrowItem = (TextView)view.findViewById(R.id.status);
         borrowItem.setText(items[i]);
 

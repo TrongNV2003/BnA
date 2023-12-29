@@ -35,7 +35,7 @@ public class AccountFragment extends Fragment {
         borrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), BorrowDetails.class);
+                Intent intent = new Intent(getActivity(), BorrowStatus.class);
                 startActivity(intent);
             }
         });
