@@ -15,9 +15,9 @@
 
         <FrameLayout
             android:id="@+id/fragment_container"
-            android:layout_width="390dp"
-            android:layout_marginLeft="-5dp"
-            android:layout_height="662dp"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="69dp"/>
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
@@ -45,8 +45,6 @@
         android:id="@+id/nav_drawer"
         android:layout_gravity="start"
         app:headerLayout="@layout/z_nav_header"
-        app:menu="@menu/nav_menu"
-        app:itemIconTint="@color/orange"
-        app:itemTextColor="@color/orange"/>
+        app:menu="@menu/nav_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

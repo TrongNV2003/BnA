@@ -8,14 +8,14 @@ import android.widget.Button;
 
 import vn.edu.usth.moodle.R;
 
-public class ReportBook extends AppCompatActivity {
+public class RecommendBook extends AppCompatActivity {
 
     Button back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_report_book);
+        setContentView(R.layout.activity_recommend_book);
 
         back = findViewById(R.id.back);
 

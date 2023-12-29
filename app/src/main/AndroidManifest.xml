@@ -18,10 +18,10 @@
             android:name=".NavBottom.AccountFragmentInsider.BorrowDetails"
             android:exported="false" />
         <activity
-            android:name=".NavBottom.AccountFragmentInsider.ReportBook"
+            android:name=".NavBottom.AccountFragmentInsider.RecommendBook"
             android:exported="false" />
         <activity
-            android:name=".NavBottom.AccountFragmentInsider.ReportBook"
+            android:name=".NavBottom.AccountFragmentInsider.RecommendBook"
             android:exported="false" />
         <activity
             android:name=".mainHome.ActivityHome"
@@ -48,7 +48,7 @@
             android:name=".mainHome.FragmentHomeActivity"
             android:exported="true" />
         <activity
-            android:name=".NavBottom.AccountFragmentInsider.ReportBook"
+            android:name=".NavBottom.AccountFragmentInsider.RecommendBook"
             android:exported="false" />
 
         <meta-data

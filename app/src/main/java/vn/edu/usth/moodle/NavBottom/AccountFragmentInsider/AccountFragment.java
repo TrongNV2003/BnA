@@ -10,8 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import vn.edu.usth.moodle.NavBottom.AccountFragmentInsider.BorrowDetails;
-import vn.edu.usth.moodle.NavBottom.AccountFragmentInsider.ReportBook;
 import vn.edu.usth.moodle.R;
 
 
@@ -26,7 +24,7 @@ public class AccountFragment extends Fragment {
         report.setOnClickListener(new View.OnClickListener()  {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), ReportBook.class);
+                Intent intent = new Intent(getActivity(), RecommendBook.class);
                 startActivity(intent);
             }
         });
