@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import vn.edu.usth.moodle.R;
 
-public class ExtendBooks extends AppCompatActivity {
+public class RenewBooks extends AppCompatActivity {
 
     AppCompatButton submit;
 
@@ -20,7 +20,7 @@ public class ExtendBooks extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_form_extend_books);
+        setContentView(R.layout.activity_form_renew_books);
 
         Button back = findViewById(R.id.back);
 
@@ -40,7 +40,7 @@ public class ExtendBooks extends AppCompatActivity {
 
 
                 if (id.isEmpty() ){
-                    Toast.makeText(ExtendBooks.this, "Please fill all these blanks", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RenewBooks.this, "Please fill all these blanks", Toast.LENGTH_SHORT).show();
                 }
             }
         });

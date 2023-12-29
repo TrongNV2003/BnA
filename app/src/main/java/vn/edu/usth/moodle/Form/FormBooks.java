@@ -62,7 +62,7 @@ public class FormBooks extends AppCompatActivity {
                 }
 
                 if (RenewBook.isChecked()){
-                    Intent intent = new Intent(FormBooks.this, ExtendBooks.class);
+                    Intent intent = new Intent(FormBooks.this, RenewBooks.class);
                     startActivity(intent);
                 }
 

@@ -18,7 +18,7 @@
             android:name=".Form.ReturnBooks"
             android:exported="false" />
         <activity
-            android:name=".Form.ExtendBooks"
+            android:name=".Form.RenewBooks"
             android:exported="false" />
         <activity
             android:name=".Form.BorrowBooks"
