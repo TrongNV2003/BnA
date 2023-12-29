@@ -22,8 +22,8 @@ public class NotificationFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_nav_bottom_notification, container, false);
         String[] items = {
-                "You have been submitted your report to BnA",
-                "Your request to borrow book 'Tet o lang dia nguc' is successful",
+                "You have been sent your recommend to BnA",
+                "Your request to borrow book 'Tet o lang dia nguc' is approved",
                 "You have been returned book 'Tet o lang dia nguc' to BnA",
                 "Several books are updated in our list, Explore now"};
         listView = (ListView)view.findViewById(R.id.list_notification_view);
