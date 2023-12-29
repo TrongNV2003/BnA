@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import vn.edu.usth.moodle.R;
-import vn.edu.usth.moodle.mainHome.tvAdapter;
 
 
 public class NotificationFragment extends Fragment {
