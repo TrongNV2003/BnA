@@ -15,6 +15,18 @@
         android:theme="@style/Theme.Moodle"
         tools:targetApi="31">
         <activity
+            android:name=".Form.ReturnBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Form.ExtendBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Form.BorrowBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Form.FormBooks"
+            android:exported="false" />
+        <activity
             android:name=".NavBottom.AccountFragmentInsider.BorrowDetails"
             android:exported="false" />
         <activity

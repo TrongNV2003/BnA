@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import vn.edu.usth.moodle.Form.FormBooks;
 import vn.edu.usth.moodle.R;
 
 
@@ -20,8 +21,8 @@ public class AccountFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_nav_bottom_account, container, false);
 
-        View report = view.findViewById(R.id.report_book);
-        report.setOnClickListener(new View.OnClickListener()  {
+        View recommend = view.findViewById(R.id.recommend_book);
+        recommend.setOnClickListener(new View.OnClickListener()  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), RecommendBook.class);
@@ -35,6 +36,15 @@ public class AccountFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), BorrowDetails.class);
+                startActivity(intent);
+            }
+        });
+
+        Button policy = view.findViewById(R.id.policy);
+        policy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), FormBooks.class);
                 startActivity(intent);
             }
         });

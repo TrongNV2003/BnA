@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".NavBottom.AccountFragmentInsider.RecommendBook"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#E3F8C5">
 
     <Button
         android:id="@+id/back"
@@ -34,12 +35,13 @@
         android:textStyle="bold"/>
 
     <EditText
+        android:id="@+id/book_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="15mm"
+        android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"
         android:hint="Write the name of book"/>
 
@@ -54,12 +56,13 @@
         android:textStyle="bold"/>
 
     <EditText
+        android:id="@+id/book_category"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="15mm"
+        android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"
         android:hint="Write the category of book"/>
 
@@ -74,29 +77,34 @@
         android:textStyle="bold"/>
 
     <EditText
+        android:id="@+id/book_author"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="15mm"
+        android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"
         android:hint="Write the author of book"/>
 
     <ScrollView
-        android:layout_width="390dp"
+        android:layout_width="match_parent"
         android:layout_height="150dp"
         android:background="@drawable/scrollview"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
 
         <EditText
+            android:id="@+id/book_comment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Write your comment here"
             android:backgroundTint="@color/transparent"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp"/>
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
     </ScrollView>
 
 
