@@ -40,14 +40,6 @@ public class AccountFragment extends Fragment {
             }
         });
 
-        Button policy = view.findViewById(R.id.policy);
-        policy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), FormBooks.class);
-                startActivity(intent);
-            }
-        });
 
         return view;
     }
